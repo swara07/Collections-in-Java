@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Map.Entry;
 public class Hashmap {
 	
 	
@@ -35,7 +36,13 @@ public class Hashmap {
 		
 		// iterator over the set (pair) : by using entrySet
 		
-		//Iterator<Entry<String,String>> it1=captial.entrySet().iterator();
+		Iterator<Entry<String,String>> it1 =captial.entrySet().iterator();
+		
+		while(it1.hasNext()) {
+			Entry<String,String> entry=it1.next();
+			System.out.println(entry.getKey()+" "+entry.getValue());
+		}
+		
 		
 		//iterate hashmap using java 8 for each and lambda:
 		
