@@ -32,6 +32,17 @@ public class Hashmap {
 			System.out.println("key="+key + " value="+ value);
 		}
 		
+		
+		// iterator over the set (pair) : by using entrySet
+		
+		//Iterator<Entry<String,String>> it1=captial.entrySet().iterator();
+		
+		//iterate hashmap using java 8 for each and lambda:
+		
+		captial.forEach((k,v)->System.out.println("key:"+k +"value:"+ v));
+		
+		
+		
 	}
 
 }
