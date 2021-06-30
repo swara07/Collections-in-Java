@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
+
 public class ArrayListDemo {
 	
 	
@@ -65,6 +66,8 @@ public static void main(String[] args) {
 	Iterator<String> it=names.iterator();
 	while(it.hasNext()) {
 		System.out.println(it.next());
+		
+	
 		
 	}
 	

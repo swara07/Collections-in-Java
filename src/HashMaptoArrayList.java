@@ -27,6 +27,8 @@ public class HashMaptoArrayList {
 		List<Integer> valueList=new ArrayList<Integer>(map1.values());
 		System.out.println(valueList);
 		
+		
+		
 
 	}
 

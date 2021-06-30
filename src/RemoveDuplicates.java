@@ -41,7 +41,7 @@ public class RemoveDuplicates {
 		// find out the common element
 		
 		ArrayList<String> l5=new ArrayList<String> (Arrays.asList("A","B","C","D","Y","J"));
-		ArrayList<String> l6=new ArrayList<String> (Arrays.asList("A","B","S","D","F","E"));
+		ArrayList<String> l6=new ArrayList<String> (Arrays.asList("A","B","C","D","F","E","L"));
 		
 		l5.retainAll(l6);
 		System.out.println(l5);
