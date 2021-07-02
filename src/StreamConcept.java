@@ -53,7 +53,7 @@ public class StreamConcept {
 	
 	
 	
-	System.out.println(m+n);
+	System.out.println(m);
 }
 }
 
